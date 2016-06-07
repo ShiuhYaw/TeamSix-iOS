@@ -265,6 +265,7 @@
 				TargetAttributes = {
 					21D42D3C1D057EB7005DE205 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4BGW4J853E;
 					};
 					21D42D551D057EB7005DE205 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -569,10 +570,13 @@
 			baseConfigurationReference = 731BD86A2164DA4C2A271259 /* Pods-teamSix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = teamSix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahyaw.teamSix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -581,10 +585,13 @@
 			baseConfigurationReference = 22BA720F4FB1A89FB4D79666 /* Pods-teamSix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = teamSix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahyaw.teamSix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
